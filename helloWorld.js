@@ -11,6 +11,9 @@ const server = http.createServer((req, res) => {
     res.end('Hello World');
 });
 
+// server listening on port that is defined as variable (on port 3000)
 server.listen(port, hostname, () => {
     console.log(`Server running at http://${hostname}:${port}/`);
 });
+
+
